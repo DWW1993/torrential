@@ -1,5 +1,71 @@
+@media screen and (max-width: 550px) {
+  .nav-wrapper .brand-logo {
+    height: 100%;
+    font-size: 50px;
+    -webkit-text-fill-color: #700000;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #600000;
+    font-weight: 900;
+    text-shadow: 2px 2px white;
+    letter-spacing: 3px;
+    padding: 1rem 0.5rem; } }
+@media screen and (min-width: 551px) {
+  .nav-wrapper .brand-logo {
+    height: 100%;
+    font-size: 80px;
+    -webkit-text-fill-color: #700000;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #600000;
+    font-weight: 900;
+    text-shadow: 4px 4px white;
+    letter-spacing: 4px;
+    padding: 1rem 0.5rem; } }
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: Helvetica, Arial; }
+
+body {
+  background-color: black;
+  color: #700000;
+  max-width: 1500px;
+  margin: 0 auto;
+  max-height: 100vh;
+  overflow: hidden; }
+
+.topnav {
+  height: 91px;
+  margin-top: 5px; }
+  .topnav .nav-extended {
+    background-color: #0f0f0f;
+    height: 91px; }
+  .topnav .tor {
+    width: 100%;
+    background-color: black; }
+    .topnav .tor #nav-mobile {
+      height: 91px; }
+      .topnav .tor #nav-mobile a {
+        vertical-align: middle;
+        line-height: 91px;
+        font-size: 25px;
+        color: white;
+        font-weight: 900;
+        letter-spacing: 0px;
+        text-decoration: overline underline;
+        text-decoration-color: #700000; }
+
+.wrapwrap {
+  max-width: 1500px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .wrapwrap .wrapflower {
+    width: 1500px;
+    position: relative;
+    left: 50%;
+    margin-left: -930px;
+    bottom: 25px; }
+    .wrapwrap .wrapflower .flower {
+      opacity: 0.5;
+      display: block; }
 
 /* div {
     border: 1px solid orange;
