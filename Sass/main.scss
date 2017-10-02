@@ -1,6 +1,23 @@
 @import 'variables';
 @import 'mixins';
-@media screen and (max-width: 550px) {
+
+.nav-wrapper .brand-logo {
+    height: 100%;
+    font-size: 80px;
+    -webkit-text-fill-color: #700000;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #600000;
+    font-weight: 900;
+    text-shadow: 4px 4px white;
+    letter-spacing: 4px;
+    padding: 1rem 0.5rem;
+}
+
+.nav-extended {
+    height: 80px!important;
+}
+
+/* @media screen and (max-width: 550px) {
     
     .nav-wrapper .brand-logo {
         height: 100%;
@@ -83,7 +100,7 @@ body {
             display: block;
         }
     }
-}
+} */
 
 /* div {
     border: 1px solid orange;
